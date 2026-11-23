@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>云南十日 · 深圳出发｜2026.12.04–12.13 旅行攻略</title>
+<style>
+  :root{
+    --paper:#faf6ed;
+    --card:#fffdf8;
+    --ink:#22302b;
+    --muted:#6f7c76;
+    --pine:#1e4b42;
+    --pine-2:#2f6f60;
+    --clay:#b45a3c;
+    --gold:#c9a227;
+    --line:#e6ddcc;
+    --shadow:0 12px 34px rgba(34,48,43,.08);
+    --radius:20px;
+    --kunming:#3f7d6e;
+    --dali:#4a7fa5;
+    --lijiang:#8a6a4f;
+    --shangrila:#a4553c;
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    font-size:16px;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:"";
+    position:fixed;inset:0;z-index:-1;
+    background-image:radial-gradient(#e8dfce 0.8px, transparent 0.8px);
+    background-size:22px 22px;
+    opacity:.55;
+  }
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3,h4{font-family:"Songti SC","STSong","Noto Serif SC",serif;font-weight:700;line-height:1.25;margin:0}
+  p{margin:0}
+  img{max-width:100%}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;
+    overflow:hidden;
+    padding:86px 24px 150px;
+    color:#f8f3e6;
+    background:
+      radial-gradient(1200px 500px at 80% -10%, #3d7d6d 0%, transparent 60%),
+      linear-gradient(160deg,#0f2e29 0%, #1b463d 48%, #2a6356 100%);
+  }
+  .hero-inner{max-width:1080px;margin:0 auto;position:relative;z-index:2}
+  .eyebrow{
+    font-size:12px;letter-spacing:.38em;color:#dcc78d;
+    text-transform:uppercase;margin-bottom:22px;
+  }
+  .hero h1{
+    font-size:clamp(46px,7.4vw,86px);
+    letter-spacing:.06em;
+    margin-bottom:18px;
+    text-shadow:0 2px 30px rgba(0,0,0,.25);
+  }
+  .hero .sub{
+    font-size:clamp(15px,1.7vw,19px);
+    color:#e7dfcc;
+    max-width:760px;
+  }
+  .hero .sub b{color:#f4d98a;font-weight:600}
+  .meta{
+    display:flex;flex-wrap:wrap;gap:10px;margin-top:30px;
+  }
+  .meta span{
+    padding:7px 14px;border-radius:999px;
+    border:1px solid rgba(248,243,230,.28);
+    background:rgba(255,255,255,.06);
+    font-size:13px;letter-spacing:.03em;
+    backdrop-filter:blur(6px);
+  }
+  .hero-art{
+    position:absolute;left:0;right:0;bottom:-2px;z-index:1;
+    pointer-events:none;
+  }
+  .hero-art svg{display:block;width:100%;height:auto}
+  .hero-note{
+    position:relative;z-index:2;max-width:1080px;margin:34px auto 0;
+    font-size:13px;color:#cfc6b2;letter-spacing:.04em;
+  }
+
+  /* ---------- Nav ---------- */
+  .nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(250,246,237,.92);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    max-width:1080px;margin:0 auto;padding:0 20px;
+    display:flex;gap:4px;overflow-x:auto;
+    scrollbar-width:none;
+  }
+  .nav-inner::-webkit-scrollbar{display:none}
+  .nav a{
+    flex:0 0 auto;
+    padding:14px 13px;font-size:13.5px;color:var(--muted);
+    border-bottom:2px solid transparent;white-space:nowrap;
+  }
+  .nav a:hover{color:var(--pine);border-bottom-color:#cbbfa8}
+
+  /* ---------- Layout ---------- */
+  main{max-width:1080px;margin:0 auto;padding:0 20px 80px}
+  section{padding-top:54px}
+  .sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:22px}
+  .sec-head .num{
+    font-family:"Songti SC",serif;font-size:13px;letter-spacing:.2em;
+    color:var(--clay);border:1px solid #e3c9b8;border-radius:999px;
+    padding:3px 10px;
+  }
+  .sec-head h2{font-size:clamp(24px,3.2vw,32px);letter-spacing:.03em}
+  .sec-head .en{
+    margin-left:auto;font-size:11px;letter-spacing:.28em;color:#a99c86;
+    text-transform:uppercase;
+  }
+
+  /* ---------- Alert ---------- */
+  .alert{
+    margin-top:26px;
+    background:linear-gradient(135deg,#fff8e9,#fdf1de);
+    border:1px solid #eedcb8;
+    border-left:5px solid var(--gold);
+    border-radius:14px;
+    padding:18px 20px;
+    box-shadow:var(--shadow);
+  }
+  .alert h4{font-size:16px;margin-bottom:8px;color:#7a5a12}
+  .alert ul{margin:0;padding-left:18px}
+  .alert li{font-size:14px;color:#6b5830;margin:3px 0}
+
+  /* ---------- Journey ---------- */
+  .journey-wrap{
+    background:var(--card);border:1px solid var(--line);
+    border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:24px 22px;overflow-x:auto;
+  }
+  .journey{
+    display:flex;align-items:stretch;gap:0;min-width:900px;
+  }
+  .j-stop{
+    flex:0 0 auto;text-align:center;min-width:82px;
+    display:flex;flex-direction:column;justify-content:center;
+  }
+  .j-stop .dot{
+    width:12px;height:12px;border-radius:50%;
+    background:var(--pine-2);margin:0 auto 9px;
+    box-shadow:0 0 0 5px rgba(47,111,96,.12);
+  }
+  .j-stop b{font-size:15px;font-family:"Songti SC",serif;letter-spacing:.05em}
+  .j-stop small{color:var(--muted);font-size:11.5px;letter-spacing:.06em}
+  .j-move{
+    flex:1 0 76px;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;position:relative;
+    color:var(--muted);font-size:11.5px;padding:0 4px;
+  }
+  .j-move::before{
+    content:"";position:absolute;left:0;right:0;top:50%;
+    border-top:1px dashed #cdbfa5;z-index:0;
+  }
+  .j-move span{
+    position:relative;z-index:1;background:var(--card);
+    padding:0 6px;letter-spacing:.04em;
+  }
+  .j-move i{font-style:normal;color:var(--clay);font-size:12px}
+
+  /* ---------- Tables ---------- */
+  .table-wrap{
+    background:var(--card);border:1px solid var(--line);
+    border-radius:var(--radius);box-shadow:var(--shadow);
+    overflow:hidden;
+  }
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  thead th{
+    background:#f3ecdd;color:#5b4b2f;text-align:left;
+    font-weight:600;letter-spacing:.05em;font-size:12.5px;
+    padding:13px 16px;border-bottom:1px solid #e2d5bd;white-space:nowrap;
+  }
+  tbody td{padding:13px 16px;border-bottom:1px solid #f0e8d8;vertical-align:top}
+  tbody tr:last-child td{border-bottom:none}
+  tbody tr:nth-child(even){background:#fdfaf2}
+  td.num{font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--pine);font-weight:600}
+
+  /* ---------- Day cards ---------- */
+  .day{
+    --accent:var(--pine-2);
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    margin-top:26px;
+    overflow:hidden;
+    border-top:4px solid var(--accent);
+  }
+  .day[data-city="kunming"]{--accent:var(--kunming)}
+  .day[data-city="dali"]{--accent:var(--dali)}
+  .day[data-city="lijiang"]{--accent:var(--lijiang)}
+  .day[data-city="shangrila"]{--accent:var(--shangrila)}
+  .day-head{
+    padding:22px 26px 20px;
+    background:linear-gradient(180deg,#fffdf8,#faf4e8);
+    border-bottom:1px dashed #e3d7c2;
+  }
+  .day-kicker{
+    display:flex;align-items:center;gap:10px;
+    font-size:11.5px;letter-spacing:.24em;color:var(--accent);
+    text-transform:uppercase;font-weight:700;
+  }
+  .day-kicker .city{
+    letter-spacing:.08em;background:var(--accent);color:#fff;
+    border-radius:999px;padding:2px 9px;font-size:11px;
+  }
+  .day-head h3{font-size:clamp(22px,3vw,28px);margin:8px 0 10px}
+  .tags{display:flex;flex-wrap:wrap;gap:7px}
+  .tag{
+    font-size:12px;color:#6d5a3d;background:#f7eeda;
+    border:1px solid #ebdcc0;border-radius:999px;padding:2px 10px;
+  }
+  .day-body{
+    display:grid;grid-template-columns:224px 1fr;gap:30px;
+    padding:24px 26px 28px;
+  }
+  .side{font-size:13.5px;color:var(--muted)}
+  .side-block{
+    padding:13px 14px;border:1px solid #eee4d2;border-radius:12px;
+    background:#fdfaf3;margin-bottom:12px;
+  }
+  .side-block b{
+    display:block;font-size:11px;letter-spacing:.18em;
+    color:#a08a66;text-transform:uppercase;margin-bottom:5px;font-weight:600;
+  }
+  .side-block p{color:#4c5a54;line-height:1.65}
+  .side-block p + p{margin-top:6px}
+
+  .timeline{position:relative}
+  .tl-row{
+    display:grid;grid-template-columns:88px 1fr;gap:16px;
+    padding:7px 0;
+  }
+  .tl-time{
+    font-variant-numeric:tabular-nums;font-weight:700;
+    font-size:13.5px;color:var(--accent);padding-top:2px;white-space:nowrap;
+  }
+  .tl-content{
+    position:relative;padding:0 0 10px 18px;
+    border-left:1.5px solid #ece1cd;font-size:14.5px;
+  }
+  .tl-content::before{
+    content:"";position:absolute;left:-5.5px;top:6px;
+    width:9px;height:9px;border-radius:50%;
+    background:var(--accent);
+    box-shadow:0 0 0 4px #fbf4e6;
+  }
+  .tl-row:last-child .tl-content{border-left-color:transparent}
+  .tl-note{display:block;color:var(--muted);font-size:12.8px;margin-top:2px}
+  .callout{
+    margin:16px 0 0;padding:12px 15px;
+    background:#fdf4e2;border-left:4px solid var(--gold);
+    border-radius:10px;font-size:13.5px;color:#6a5628;
+  }
+  .callout b{color:#7a5a12}
+
+  /* ---------- Stay ---------- */
+  .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .stay{
+    background:var(--card);border:1px solid var(--line);
+    border-radius:16px;padding:18px;box-shadow:var(--shadow);
+  }
+  .stay .city{font-family:"Songti SC",serif;font-size:20px;margin-bottom:2px}
+  .stay .nights{font-size:12px;letter-spacing:.12em;color:var(--clay);text-transform:uppercase}
+  .stay .area{font-size:13.5px;color:#4c5a54;margin-top:10px}
+  .stay .price{font-size:12.5px;color:var(--muted);margin-top:6px}
+
+  /* ---------- Booking ---------- */
+  .checklist{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px}
+  .check{
+    display:flex;gap:11px;align-items:flex-start;
+    background:var(--card);border:1px solid var(--line);
+    border-radius:12px;padding:12px 14px;cursor:pointer;
+    transition:background .2s,border-color .2s;
+  }
+  .check:hover{border-color:#d8c8a8}
+  .check input{display:none}
+  .box{
+    flex:0 0 18px;width:18px;height:18px;margin-top:3px;
+    border:1.5px solid #c9b99a;border-radius:5px;background:#fff;
+    position:relative;transition:.2s;
+  }
+  .check input:checked + .box{background:var(--pine-2);border-color:var(--pine-2)}
+  .check input:checked + .box::after{
+    content:"";position:absolute;left:5px;top:1.5px;
+    width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;
+    transform:rotate(42deg);
+  }
+  .check input:checked ~ .check-text{color:#9aa49f;text-decoration:line-through}
+  .check-text{font-size:13.8px;line-height:1.55}
+  .check-text b{display:block;font-size:12px;letter-spacing:.08em;color:var(--clay);margin-bottom:1px}
+
+  /* ---------- Budget ---------- */
+  .budget{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px 26px}
+  .b-row{display:grid;grid-template-columns:120px 1fr 110px;gap:14px;align-items:center;margin:11px 0;font-size:13.5px}
+  .b-row .bar{height:9px;background:#f0e7d6;border-radius:99px;overflow:hidden}
+  .b-row .bar span{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--pine-2),#7aa38f)}
+  .b-row .val{text-align:right;color:var(--muted);font-variant-numeric:tabular-nums;font-size:12.5px}
+  .b-total{
+    display:flex;justify-content:space-between;align-items:baseline;
+    border-top:1px dashed #ddcfb7;margin-top:18px;padding-top:16px;
+    font-family:"Songti SC",serif;
+  }
+  .b-total b{font-size:22px;color:var(--clay)}
+
+  /* ---------- Tips ---------- */
+  .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .tip{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:16px 18px;font-size:13.8px;color:#4c5a54;
+  }
+  .tip b{display:block;color:var(--pine);font-size:14.5px;margin-bottom:4px;font-family:"Songti SC",serif}
+
+  /* ---------- Backup ---------- */
+  .backup{background:#f4eee1;border:1px solid #e2d4bb;border-radius:var(--radius);padding:22px 24px}
+  .backup ol{margin:0;padding-left:20px;color:#4c5a54;font-size:14px}
+  .backup li{margin:7px 0}
+  .backup li b{color:var(--clay)}
+
+  /* ---------- Footer ---------- */
+  footer{
+    margin-top:64px;padding:34px 20px 50px;
+    border-top:1px solid var(--line);
+    text-align:center;color:#98a29c;font-size:12.5px;letter-spacing:.04em;
+  }
+  footer b{color:var(--pine);font-family:"Songti SC",serif;font-size:15px;letter-spacing:.08em}
+
+  /* ---------- Back to top ---------- */
+  .top{
+    position:fixed;right:22px;bottom:24px;z-index:60;
+    width:42px;height:42px;border-radius:50%;
+    border:1px solid #d9cbb1;background:rgba(255,253,248,.94);
+    color:var(--pine);font-size:17px;cursor:pointer;
+    box-shadow:0 8px 22px rgba(34,48,43,.15);
+    opacity:0;pointer-events:none;transition:.25s;
+  }
+  .top.show{opacity:1;pointer-events:auto}
+
+  /* ---------- Choices ---------- */
+  .lead{
+    font-size:14.5px;color:var(--muted);max-width:880px;margin:-6px 0 20px;
+  }
+  .choices{display:grid;gap:18px}
+  .choice{
+    --accent:var(--pine-2);
+    background:var(--card);border:1px solid var(--line);
+    border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;
+  }
+  .choice[data-city="kunming"]{--accent:var(--kunming)}
+  .choice[data-city="dali"]{--accent:var(--dali)}
+  .choice[data-city="lijiang"]{--accent:var(--lijiang)}
+  .choice[data-city="shangrila"]{--accent:var(--shangrila)}
+  .choice-head{
+    padding:16px 20px 14px;border-bottom:1px dashed #e3d7c2;
+    background:linear-gradient(180deg,#fffdf8,#faf4e8);
+  }
+  .choice-title{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .choice-title .city-dot{
+    width:10px;height:10px;border-radius:50%;background:var(--accent);
+    box-shadow:0 0 0 4px rgba(180,90,60,.10);
+  }
+  .choice-title h3{font-size:22px}
+  .choice-title .days{
+    font-size:11px;letter-spacing:.12em;color:#fff;background:var(--accent);
+    border-radius:999px;padding:2px 9px;
+  }
+  .choice-head p{font-size:13px;color:var(--muted);margin-top:6px}
+  .table-scroll{overflow-x:auto}
+  .choice table{font-size:13.5px;min-width:660px}
+  .choice tbody td:first-child{font-weight:600;white-space:nowrap;color:#3b4a44}
+  .choice tbody td:last-child{color:#5b6a64}
+  .pill{
+    display:inline-block;white-space:nowrap;font-size:11px;
+    padding:2px 9px;border-radius:999px;border:1px solid;
+  }
+  .pill.yes{color:#2c6a5c;background:#eaf3ee;border-color:#cfe3d8}
+  .pill.opt{color:#8a6a1f;background:#fbf3dd;border-color:#ecd9a8}
+  .pill.no{color:#9a6a5a;background:#f6eae4;border-color:#e6cdc2}
+  .pill.pass{color:#6b7280;background:#f1efe9;border-color:#ddd7c9}
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:820px){
+    .hero{padding:66px 18px 130px}
+    main{padding:0 16px 60px}
+    .day-body{grid-template-columns:1fr;gap:18px}
+    .side{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .side-block{margin-bottom:0}
+    .grid-4{grid-template-columns:1fr 1fr}
+    .checklist{grid-template-columns:1fr}
+    .grid-2{grid-template-columns:1fr}
+    .b-row{grid-template-columns:88px 1fr 92px;gap:10px}
+    .sec-head .en{display:none}
+    .tl-row{grid-template-columns:76px 1fr;gap:12px}
+  }
+  @media (max-width:520px){
+    .side{grid-template-columns:1fr}
+    .grid-4{grid-template-columns:1fr}
+    .day-head{padding:18px 18px 16px}
+    .day-body{padding:18px}
+    .hero h1{letter-spacing:.03em}
+  }
+
+  /* ---------- Print ---------- */
+  @media print{
+    body{background:#fff;font-size:11.5pt}
+    body::before,.nav,.top,.hero-art{display:none}
+    .hero{background:#1e4b42 !important;color:#fff;padding:30px 20px 34px}
+    .hero h1{font-size:34pt}
+    .meta span{border-color:#fff}
+    main{max-width:none;padding:0 8mm 8mm}
+    section{padding-top:18px}
+    .day,.table-wrap,.journey-wrap,.budget,.stay,.tip,.check,.backup{
+      box-shadow:none;break-inside:avoid;
+    }
+    .day{margin-top:12px}
+    .day-body{grid-template-columns:170px 1fr;gap:16px}
+    a{text-decoration:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Yunnan · Winter 2026</div>
+    <h1>云南十日</h1>
+    <p class="sub">
+      从深圳出发，一路向北：<b>昆明 · 大理 · 丽江 · 香格里拉</b><br>
+      不回头的一条线，海拔慢慢升，最后从香格里拉坐动车到昆明，飞回深圳。
+    </p>
+    <div class="meta">
+      <span>12.04 – 12.13</span>
+      <span>10 天 9 晚</span>
+      <span>4 座城</span>
+      <span>人均 ¥7.3k – 9.2k</span>
+    </div>
+    <p class="hero-note">昆明只玩 1 天 · 香格里拉留 3 晚 · 玉龙雪山留备用日</p>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <svg viewBox="0 0 1440 420" preserveAspectRatio="none">
+      <circle cx="1130" cy="112" r="52" fill="#e6c15f" opacity=".82"/>
+      <path d="M0 318 L170 212 L300 282 L432 168 L566 300 L700 198 L824 306 L958 188 L1102 298 L1242 218 L1440 328 L1440 420 L0 420Z" fill="#1a4a40" opacity=".55"/>
+      <path d="M0 360 L158 268 L300 338 L458 248 L618 350 L780 258 L940 352 L1100 278 L1262 348 L1440 278 L1440 420 L0 420Z" fill="#0f302a" opacity=".86"/>
+      <path d="M0 396 L190 330 L360 386 L540 320 L720 392 L900 326 L1080 390 L1260 334 L1440 392 L1440 420 L0 420Z" fill="#0a241f" opacity=".9"/>
+    </svg>
+  </div>
+</header>
+
+<!-- ================= NAV ================= -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#overview">总览</a>
+    <a href="#transport">交通</a>
+    <a href="#choices">取舍</a>
+    <a href="#days">逐日行程</a>
+    <a href="#stay">住宿</a>
+    <a href="#booking">订票</a>
+    <a href="#budget">预算</a>
+    <a href="#tips">提醒</a>
+    <a href="#backup">备用</a>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ================= ALERT ================= -->
+  <div class="alert">
+    <h4>三个必须设闹钟的时间</h4>
+    <ul>
+      <li><b>今天</b>：订 12/04 深圳→昆明机票、12/05 昆明→大理 C9514、12/07 大理→丽江 C325。</li>
+      <li><b>11/29 15:00</b>：抢 12/13 香格里拉→昆明 C644（12306 预售 15 天，香格里拉站 15:00 起售）。</li>
+      <li><b>12/01 20:00</b>：抢 12/08 玉龙雪山冰川公园大索道；21:00 抢云杉坪作备选。</li>
+    </ul>
+  </div>
+
+  <!-- ================= OVERVIEW ================= -->
+  <section id="overview">
+    <div class="sec-head">
+      <span class="num">01</span>
+      <h2>一条线向北，不回头</h2>
+      <span class="en">Route</span>
+    </div>
+
+    <div class="journey-wrap">
+      <div class="journey">
+        <div class="j-stop"><span class="dot"></span><b>深圳</b><small>12/04 出发</small></div>
+        <div class="j-move"><span><i>飞机</i> 2h25</span></div>
+        <div class="j-stop"><span class="dot"></span><b>昆明</b><small>12/04–12/05</small></div>
+        <div class="j-move"><span><i>动车</i> 2h14</span></div>
+        <div class="j-stop"><span class="dot"></span><b>大理</b><small>12/05–12/07</small></div>
+        <div class="j-move"><span><i>城际</i> 2h30</span></div>
+        <div class="j-stop"><span class="dot"></span><b>丽江</b><small>12/07–12/10</small></div>
+        <div class="j-move"><span><i>包车</i> 4h</span></div>
+        <div class="j-stop"><span class="dot"></span><b>香格里拉</b><small>12/10–12/13</small></div>
+        <div class="j-move"><span><i>动车</i> 5h28</span></div>
+        <div class="j-stop"><span class="dot"></span><b>昆明</b><small>12/13 转机</small></div>
+        <div class="j-move"><span><i>飞机</i> 2h10</span></div>
+        <div class="j-stop"><span class="dot"></span><b>深圳</b><small>12/13 到家</small></div>
+      </div>
+    </div>
+
+    <div class="table-wrap" style="margin-top:22px">
+      <table>
+        <thead>
+          <tr><th>日期</th><th>白天</th><th>住宿</th><th>关键交通</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="num">12/04 五</td><td>深圳下班 → 昆明</td><td>昆明站</td><td>飞机 20:40–23:05</td></tr>
+          <tr><td class="num">12/05 六</td><td>昆明一天 → 大理</td><td>大理古城</td><td>动车 17:31–19:45</td></tr>
+          <tr><td class="num">12/06 日</td><td>洱海环湖</td><td>大理古城</td><td>包车</td></tr>
+          <tr><td class="num">12/07 一</td><td>三塔 · 寂照庵 → 丽江</td><td>丽江古城</td><td>城际 16:35–19:05</td></tr>
+          <tr><td class="num">12/08 二</td><td>玉龙雪山 · 蓝月谷</td><td>丽江古城</td><td>包车</td></tr>
+          <tr><td class="num">12/09 三</td><td>白沙 · 玉湖村 · 拉市海</td><td>丽江古城</td><td>打车</td></tr>
+          <tr><td class="num">12/10 四</td><td>虎跳峡 → 香格里拉</td><td>独克宗</td><td>包车</td></tr>
+          <tr><td class="num">12/11 五</td><td>普达措 · 松赞林寺</td><td>独克宗</td><td>包车</td></tr>
+          <tr><td class="num">12/12 六</td><td>纳帕海 · 石卡雪山</td><td>独克宗</td><td>包车</td></tr>
+          <tr><td class="num">12/13 日</td><td>动车回昆明 → 飞深圳</td><td>—</td><td>07:22–12:50；16:00–18:10</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= TRANSPORT ================= -->
+  <section id="transport">
+    <div class="sec-head">
+      <span class="num">02</span>
+      <h2>交通总表</h2>
+      <span class="en">Transport</span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>区段</th><th>工具</th><th>参考班次</th><th>耗时</th><th>价格</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>深圳 → 昆明</td><td>飞机</td><td>12/04 20:40–23:05</td><td>2h25</td><td class="num">¥550–850</td></tr>
+          <tr><td>昆明 → 大理</td><td>动车</td><td>12/05 C9514 17:31–19:45</td><td>2h14</td><td class="num">¥145</td></tr>
+          <tr><td>大理 → 丽江</td><td>城际</td><td>12/07 C325 16:35–19:05</td><td>2h30</td><td class="num">¥80</td></tr>
+          <tr><td>丽江 → 虎跳峡 → 香格里拉</td><td>包车</td><td>12/10 07:30 出发</td><td>车程 4h</td><td class="num">¥700–900/车</td></tr>
+          <tr><td>香格里拉 → 昆明</td><td>动车</td><td>12/13 C644 07:22–12:50</td><td>5h28</td><td class="num">¥245–260</td></tr>
+          <tr><td>昆明 → 深圳</td><td>飞机</td><td>12/13 16:00–18:10</td><td>2h10</td><td class="num">¥600–900</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout">
+      <b>返程留缓冲：</b>12/13 动车 12:50 到昆明站，打车 50 分钟到机场，建议买 16:00 以后的航班。火车与机票是两段独立合同，火车晚点误机航司不负责。
+    </div>
+  </section>
+
+  <!-- ================= CHOICES ================= -->
+  <section id="choices">
+    <div class="sec-head">
+      <span class="num">03</span>
+      <h2>每个地方，留下了什么</h2>
+      <span class="en">Choices</span>
+    </div>
+    <p class="lead">
+      取舍原则：一天只留 2–3 个核心；同质景观二选一（雪山 vs 苍山、洱海环湖 vs 游船）；
+      单程超过 2 小时或需要过夜的，留给下次；封闭、停运、强制消费的直接剔除。
+    </p>
+
+    <div class="choices">
+
+      <!-- 昆明 -->
+      <div class="choice" data-city="kunming">
+        <div class="choice-head">
+          <div class="choice-title"><span class="city-dot"></span><h3>昆明</h3><span class="days">1 天</span></div>
+          <p>只留市区＋滇池一条线，石林和抚仙湖让给下次。</p>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>景点</th><th>安排</th><th>为什么</th></tr></thead>
+            <tbody>
+              <tr><td>翠湖公园</td><td><span class="pill yes">去</span></td><td>免费、市区、红嘴鸥密集，落地第二天上午最顺路。</td></tr>
+              <tr><td>云南大学 / 文林街</td><td><span class="pill yes">去</span></td><td>和翠湖连着走，老校园＋咖啡街，约 1 小时。</td></tr>
+              <tr><td>昆明老街</td><td><span class="pill yes">去</span></td><td>午餐＋骑楼，金马碧鸡坊顺路看一眼。</td></tr>
+              <tr><td>海埂大坝</td><td><span class="pill yes">去</span></td><td>12 月红嘴鸥主战场，下午光线好，视野比翠湖开阔。</td></tr>
+              <tr><td>西山龙门</td><td><span class="pill opt">可选</span></td><td>时间够就上，俯瞰滇池；体力不够直接放弃，不影响主线。</td></tr>
+              <tr><td>石林</td><td><span class="pill no">舍弃</span></td><td>往返 3h＋游览 3h，只有 1 天且前晚 23:05 落地，太赶；冬季石林色彩偏灰。</td></tr>
+              <tr><td>云南民族村</td><td><span class="pill no">舍弃</span></td><td>人造景区，门票约 ¥90，和后面大理/丽江古城重复。</td></tr>
+              <tr><td>官渡古镇 / 斗南花市</td><td><span class="pill no">舍弃</span></td><td>适合半日闲逛，与翠湖/老街同质，方向也不顺。</td></tr>
+              <tr><td>抚仙湖 / 九乡</td><td><span class="pill no">舍弃</span></td><td>单程 1.5–2h，需整日，和“昆明只 1 天”冲突。</td></tr>
+              <tr><td>金马碧鸡坊</td><td><span class="pill pass">顺路</span></td><td>就在老街步行范围，拍张照即可，不单独排。</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 大理 -->
+      <div class="choice" data-city="dali">
+        <div class="choice-head">
+          <div class="choice-title"><span class="city-dot"></span><h3>大理</h3><span class="days">2 天</span></div>
+          <p>环湖一圈＋三塔，苍山和游船二选一。</p>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>景点</th><th>安排</th><th>为什么</th></tr></thead>
+            <tbody>
+              <tr><td>龙龛码头</td><td><span class="pill yes">去</span></td><td>日出＋海鸥，西岸第一站，顺路北上。</td></tr>
+              <tr><td>磻溪村 S 湾</td><td><span class="pill yes">去</span></td><td>经典机位，环湖必经。</td></tr>
+              <tr><td>喜洲古镇</td><td><span class="pill yes">去</span></td><td>白族民居＋破酥粑粑，正好当午餐点。</td></tr>
+              <tr><td>海舌生态公园</td><td><span class="pill yes">去</span></td><td>免费半岛，步行约 1 小时，和喜洲连着。</td></tr>
+              <tr><td>双廊古镇</td><td><span class="pill yes">去</span></td><td>东岸精华，太阳宫/玉几岛。</td></tr>
+              <tr><td>小普陀</td><td><span class="pill yes">去</span></td><td>回程顺路，海鸥＋日落。</td></tr>
+              <tr><td>崇圣寺三塔</td><td><span class="pill yes">去</span></td><td>大理地标，第二天早上 1.5 小时。</td></tr>
+              <tr><td>寂照庵 / 感通索道</td><td><span class="pill yes">去</span></td><td>素斋＋多肉院子，轻松替代苍山大索道。</td></tr>
+              <tr><td>大理古城</td><td><span class="pill yes">去</span></td><td>住两晚，晚上逛人民路。</td></tr>
+              <tr><td>苍山洗马潭大索道</td><td><span class="pill no">舍弃</span></td><td>往返 3h＋，海拔 3900m，和玉龙雪山重复，天气多变。</td></tr>
+              <tr><td>洱海游船</td><td><span class="pill no">舍弃</span></td><td>4h 船程，和环湖包车看到的湖景重复。</td></tr>
+              <tr><td>南诏风情岛 / 蝴蝶泉 / 影视城</td><td><span class="pill no">舍弃</span></td><td>团队景点，商业化重，口碑一般。</td></tr>
+              <tr><td>沙溪古镇</td><td><span class="pill no">舍弃</span></td><td>单程 2h，需住一晚；这次大理只 2 晚，留给下次。</td></tr>
+              <tr><td>无量山樱花谷</td><td><span class="pill no">舍弃</span></td><td>12 月是花期，但在南涧，单程 3h＋，完全反方向。</td></tr>
+              <tr><td>理想邦 / 兴盛大桥</td><td><span class="pill no">舍弃</span></td><td>网红拍照点，环湖已覆盖 S 湾、双廊，不必专程。</td></tr>
+              <tr><td>鸡足山</td><td><span class="pill no">舍弃</span></td><td>需一整天爬山礼佛，和主线不符。</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 丽江 -->
+      <div class="choice" data-city="lijiang">
+        <div class="choice-head">
+          <div class="choice-title"><span class="city-dot"></span><h3>丽江</h3><span class="days">3 天</span></div>
+          <p>雪山＋慢生活，泸沽湖不硬塞。</p>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>景点</th><th>安排</th><th>为什么</th></tr></thead>
+            <tbody>
+              <tr><td>玉龙雪山冰川公园</td><td><span class="pill yes">去</span></td><td>核心，12 月雪况最好，大索道到 4680m。</td></tr>
+              <tr><td>蓝月谷</td><td><span class="pill yes">去</span></td><td>和雪山同一天，下午光线好。</td></tr>
+              <tr><td>甘海子</td><td><span class="pill yes">去</span></td><td>看日照金山，顺路。</td></tr>
+              <tr><td>束河古镇</td><td><span class="pill yes">去</span></td><td>比丽江古城安静，雪山后歇脚。</td></tr>
+              <tr><td>白沙古镇</td><td><span class="pill yes">去</span></td><td>壁画＋雪山咖啡，慢节奏。</td></tr>
+              <tr><td>玉湖村</td><td><span class="pill yes">去</span></td><td>洛克故居、石头房，雪山脚下。</td></tr>
+              <tr><td>拉市海湿地</td><td><span class="pill yes">去</span></td><td>12 月候鸟，只走栈道。</td></tr>
+              <tr><td>丽江古城</td><td><span class="pill yes">去</span></td><td>住 3 晚，晚上逛四方街/万古楼。</td></tr>
+              <tr><td>泸沽湖</td><td><span class="pill no">舍弃</span></td><td>单程 3.5–4h，至少 2 晚，9 天塞不下，方向偏东会走回头路。</td></tr>
+              <tr><td>云杉坪</td><td><span class="pill opt">备选</span></td><td>大索道抢不到才去，不主动排；两条索道同一天太赶。</td></tr>
+              <tr><td>牦牛坪</td><td><span class="pill no">舍弃</span></td><td>2026/3/4 起停运改建。</td></tr>
+              <tr><td>拉市海骑马 / 划船</td><td><span class="pill no">舍弃</span></td><td>强制消费和投诉多，只走湿地栈道。</td></tr>
+              <tr><td>千古情 / 印象丽江</td><td><span class="pill no">舍弃</span></td><td>演出 1–1.5h、票价 ¥280–320，行程已满。</td></tr>
+              <tr><td>黑龙潭</td><td><span class="pill no">舍弃</span></td><td>在古城北，时间够可顺路，这次优先束河/白沙。</td></tr>
+              <tr><td>玉水寨 / 东巴谷 / 观音峡</td><td><span class="pill no">舍弃</span></td><td>团队线路，和雪山/白沙同质。</td></tr>
+              <tr><td>虎跳峡</td><td><span class="pill pass">顺路</span></td><td>不占丽江天数，放在 12/10 去香格里拉路上。</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 香格里拉 -->
+      <div class="choice" data-city="shangrila">
+        <div class="choice-head">
+          <div class="choice-title"><span class="city-dot"></span><h3>香格里拉</h3><span class="days">3 天</span></div>
+          <p>普达措＋寺院＋草原，远的梅里、巴拉格宗不硬排。</p>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>景点</th><th>安排</th><th>为什么</th></tr></thead>
+            <tbody>
+              <tr><td>独克宗古城</td><td><span class="pill yes">去</span></td><td>住 3 晚，晚上逛，龟山公园转经筒。</td></tr>
+              <tr><td>普达措（属都湖/弥里塘）</td><td><span class="pill yes">去</span></td><td>核心，冬季雪景＋雾凇。</td></tr>
+              <tr><td>松赞林寺</td><td><span class="pill yes">去</span></td><td>小布达拉宫，下午侧光最好。</td></tr>
+              <tr><td>纳帕海依拉草原</td><td><span class="pill yes">去</span></td><td>12 月黑颈鹤，环湖路好走。</td></tr>
+              <tr><td>石卡雪山</td><td><span class="pill yes">去</span></td><td>4449m，离市区近，半天搞定。</td></tr>
+              <tr><td>碧塔海</td><td><span class="pill no">舍弃</span></td><td>核心区封闭，不能环湖。</td></tr>
+              <tr><td>巴拉格宗</td><td><span class="pill no">舍弃</span></td><td>单程 2.5h、全天 12h，最后一天要赶 07:22 火车，风险大。</td></tr>
+              <tr><td>梅里雪山 / 飞来寺</td><td><span class="pill no">舍弃</span></td><td>单程 4h，需住 1–2 晚看日照金山，9 天不够。</td></tr>
+              <tr><td>雨崩</td><td><span class="pill no">舍弃</span></td><td>徒步 3–4 天，冬季风险高。</td></tr>
+              <tr><td>白水台</td><td><span class="pill no">舍弃</span></td><td>单程 2h，在东侧，和主线不顺。</td></tr>
+              <tr><td>尼汝村</td><td><span class="pill no">舍弃</span></td><td>需向导＋多日徒步。</td></tr>
+              <tr><td>藏民家访</td><td><span class="pill no">舍弃</span></td><td>商业化重，牦牛火锅＋独克宗体验已覆盖。</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= DAYS ================= -->
+  <section id="days">
+    <div class="sec-head">
+      <span class="num">04</span>
+      <h2>逐日行程</h2>
+      <span class="en">Day by Day</span>
+    </div>
+
+    <!-- Day 1 -->
+    <article class="day" data-city="kunming">
+      <div class="day-head">
+        <div class="day-kicker"><span>Day 01</span><span class="city">昆明</span><span>12/04 周五</span></div>
+        <h3>深圳 → 昆明</h3>
+        <div class="tags"><span class="tag">晚班机</span><span class="tag">昆明站住宿</span><span class="tag">不请假</span></div>
+      </div>
+      <div class="day-body">
+        <aside class="side">
+          <div class="side-block"><b>住宿</b><p>昆明站 / 环城南路一带<br>¥300–400，24 小时前台</p></div>
+          <div class="side-block"><b>今日关键</b><p>20:40 起飞，20:02 截载<br>行李早上带到公司</p></div>
+        </aside>
+        <div class="timeline">
+          <div class="tl-row"><div class="tl-time">17:30</div><div class="tl-content">下班直接出发<span class="tl-note">行李提前带到公司，避免回家取行李</span></div></div>
+          <div class="tl-row"><div class="tl-time">17:35</div><div class="tl-content">打车去宝安 T3<span class="tl-note">周五晚高峰按 75 分钟预留</span></div></div>
+          <div class="tl-row"><div class="tl-time">18:50</div><div class="tl-content">到达 T3，值机、托运、安检、晚饭<span class="tl-note">截载 20:02，19:00 到仍有 1 小时</span></div></div>
+          <div class="tl-row"><div class="tl-time">20:40</div><div class="tl-content">深圳 → 昆明<span class="tl-note">约 2h25，选左侧靠窗</span></div></div>
+          <div class="tl-row"><div class="tl-time">23:05</div><div class="tl-content">落地长水，打车去昆明站酒店<span class="tl-note">28km，约 ¥100，40 分钟</span></div></div>
+          <div class="tl-row"><div class="tl-time">00:00</div><div class="tl-content">入住睡觉<span class="tl-note">订 24h 前台，备注 23:30 后到店</span></div></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 2 -->
+    <article class="day" data-city="kunming">
+      <div class="day-head">
+        <div class="day-kicker"><span>Day 02</span><span class="city">昆明</span><span>12/05 周六</span></div>
+        <h3>昆明一天，傍晚去大理</h3>
+        <div class="tags"><span class="tag">翠湖海鸥</span><span class="tag">海埂大坝</span><span class="tag">西山龙门</span></div>
+      </div>
+      <div class="day-body">
+        <aside class="side">
+          <div class="side-block"><b>住宿</b><p>大理古城<br>人民路 / 博爱路一带</p></div>
+          <div class="side-block"><b>今日关键</b><p>17:31 C9514 → 19:45 大理<br>行李寄存在昆明酒店</p></div>
+        </aside>
+        <div class="timeline">
+          <div class="tl-row"><div class="tl-time">07:50</div><div class="tl-content">早餐：小锅米线</div></div>
+          <div class="tl-row"><div class="tl-time">08:20</div><div class="tl-content">退房，行李寄存酒店</div></div>
+          <div class="tl-row"><div class="tl-time">08:45</div><div class="tl-content">翠湖公园看红嘴鸥<span class="tl-note">免费，12 月–2 月海鸥最多</span></div></div>
+          <div class="tl-row"><div class="tl-time">10:00</div><div class="tl-content">云南大学会泽院、文林街<span class="tl-note">校园需预约，银杏 12 月初接近尾声</span></div></div>
+          <div class="tl-row"><div class="tl-time">11:00</div><div class="tl-content">昆明老街午餐<span class="tl-note">建新园过桥米线 / 福照楼汽锅鸡，约 ¥50</span></div></div>
+          <div class="tl-row"><div class="tl-time">12:40</div><div class="tl-content">海埂大坝喂海鸥<span class="tl-note">打车 12km 约 ¥30，鸥粮 ¥5–10</span></div></div>
+          <div class="tl-row"><div class="tl-time">14:00</div><div class="tl-content">西山龙门俯瞰滇池（可选）<span class="tl-note">索道＋环保车 ¥70–90；体力不够可跳过</span></div></div>
+          <div class="tl-row"><div class="tl-time">15:45</div><div class="tl-content">回酒店取行李，前往昆明站</div></div>
+          <div class="tl-row"><div class="tl-time">17:31</div><div class="tl-content">昆明 → 大理 C9514<span class="tl-note">二等座 ¥145，19:45 到</span></div></div>
+          <div class="tl-row"><div class="tl-time">20:30</div><div class="tl-content">入住大理古城，晚餐＋人民路夜逛</div></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 3 -->
+    <article class="day" data-city="dali">
+      <div class="day-head">
+        <div class="day-kicker"><span>Day 03</span><span class="city">大理</span><span>12/06 周日</span></div>
+        <h3>洱海环湖一整天</h3>
+        <div class="tags"><span class="tag">龙龛日出</span><span class="tag">喜洲</span><span class="tag">双廊</span><span class="tag">小普陀</span></div>
+      </div>
+      <div class="day-body">
+        <aside class="side">
+          <div class="side-block"><b>住宿</b><p>大理古城<br>连住第 2 晚</p></div>
+          <div class="side-block"><b>包车</b><p>全天 ¥450–600<br>环湖约 120km</p></div>
+        </aside>
+        <div class="timeline">
+          <div class="tl-row"><div class="tl-time">07:20</div><div class="tl-content">古城出发，到龙龛码头</div></div>
+          <div class="tl-row"><div class="tl-time">07:40</div><div class="tl-content">龙龛码头日出、海鸥<span class="tl-note">12 月日出约 07:55，提前到</span></div></div>
+          <div class="tl-row"><div class="tl-time">08:40</div><div class="tl-content">才村码头</div></div>
+          <div class="tl-row"><div class="tl-time">09:10</div><div class="tl-content">磻溪村 S 湾<span class="tl-note">经典机位，路边停车拍照</span></div></div>
+          <div class="tl-row"><div class="tl-time">10:00</div><div class="tl-content">喜洲古镇：严家大院、转角楼、破酥粑粑<span class="tl-note">严家大院 ¥30</span></div></div>
+          <div class="tl-row"><div class="tl-time">12:00</div><div class="tl-content">喜洲午餐</div></div>
+          <div class="tl-row"><div class="tl-time">13:10</div><div class="tl-content">海舌生态公园<span class="tl-note">免费，步行来回约 1 小时</span></div></div>
+          <div class="tl-row"><div class="tl-time">14:40</div><div class="tl-content">双廊古镇、玉几岛、太阳宫外景</div></div>
+          <div class="tl-row"><div class="tl-time">17:10</div><div class="tl-content">小普陀看海鸥、日落</div></div>
+          <div class="tl-row"><div class="tl-time">19:30</div><div class="tl-content">回古城晚餐、散步</div></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 4 -->
+    <article class="day" data-city="dali">
+      <div class="day-head">
+        <div class="day-kicker"><span>Day 04</span><span class="city">大理 → 丽江</span><span>12/07 周一</span></div>
+        <h3>三塔与寂照庵，傍晚进丽江</h3>
+        <div class="tags"><span class="tag">崇圣寺三塔</span><span class="tag">寂照庵素斋</span><span class="tag">丽江夜景</span></div>
+      </div>
+      <div class="day-body">
+        <aside class="side">
+          <div class="side-block"><b>住宿</b><p>丽江古城<br>七一街 / 五一街</p></div>
+          <div class="side-block"><b>今日关键</b><p>16:35 C325 → 19:05<br>古城维护费 ¥50</p></div>
+        </aside>
+        <div class="timeline">
+          <div class="tl-row"><div class="tl-time">07:30</div><div class="tl-content">早餐，退房寄存行李</div></div>
+          <div class="tl-row"><div class="tl-time">08:00</div><div class="tl-content">崇圣寺三塔＋倒影公园<span class="tl-note">门票 ¥75，早上人少倒影清楚</span></div></div>
+          <div class="tl-row"><div class="tl-time">10:00</div><div class="tl-content">感通索道 → 寂照庵<span class="tl-note">索道＋苍山门票 ¥110–130</span></div></div>
+          <div class="tl-row"><div class="tl-time">11:30</div><div class="tl-content">寂照庵素斋<span class="tl-note">¥20，多肉院子很出片</span></div></div>
+          <div class="tl-row"><div class="tl-time">12:00</div><div class="tl-content">回古城午餐</div></div>
+          <div class="tl-row"><div class="tl-time">13:00</div><div class="tl-content">床单厂艺术区 / 咖啡，取行李</div></div>
+          <div class="tl-row"><div class="tl-time">14:10</div><div class="tl-content">到大理站<span class="tl-note">打车约 ¥50</span></div></div>
+          <div class="tl-row"><div class="tl-time">16:35</div><div class="tl-content">大理 → 丽江 C325<span class="tl-note">二等座 ¥80，19:05 到</span></div></div>
+          <div class="tl-row"><div class="tl-time">19:40</div><div class="tl-content">入住，晚餐腊排骨火锅</div></div>
+          <div class="tl-row"><div class="tl-time">20:40</div><div class="tl-content">四方街、万古楼夜景</div></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 5 -->
+    <article class="day" data-city="lijiang">
+      <div class="day-head">
+        <div class="day-kicker"><span>Day 05</span><span class="city">丽江</span><span>12/08 周二</span></div>
+        <h3>玉龙雪山＋蓝月谷</h3>
+        <div class="tags"><span class="tag">日照金山</span><span class="tag">4680m</span><span class="tag">蓝月谷</span></div>
+      </div>
+      <div class="day-body">
+        <aside class="side">
+          <div class="side-block"><b>住宿</b><p>丽江古城<br>连住第 2 晚</p></div>
+          <div class="side-block"><b>门票</b><p>进山 ¥100＋车 ¥20<br>大索道 ¥120</p></div>
+        </aside>
+        <div class="timeline">
+          <div class="tl-row"><div class="tl-time">06:30</div><div class="tl-content">起床、早餐</div></div>
+          <div class="tl-row"><div class="tl-time">07:00</div><div class="tl-content">古城 → 甘海子<span class="tl-note">包车往返 ¥400–500</span></div></div>
+          <div class="tl-row"><div class="tl-time">07:40</div><div class="tl-content">甘海子看日照金山<span class="tl-note">日出约 07:55，山上 0℃ 以下</span></div></div>
+          <div class="tl-row"><div class="tl-time">08:20</div><div class="tl-content">游客中心核票、租羽绒服<span class="tl-note">租金约 ¥50；氧气瓶在古城买 ¥15</span></div></div>
+          <div class="tl-row"><div class="tl-time">09:00</div><div class="tl-content">大索道：4506m → 4680m<span class="tl-note">慢走，不跑跳，不舒服立刻下撤</span></div></div>
+          <div class="tl-row"><div class="tl-time">11:30</div><div class="tl-content">下山午餐</div></div>
+          <div class="tl-row"><div class="tl-time">13:00</div><div class="tl-content">蓝月谷：玉液湖、镜潭湖、蓝月湖、听涛湖<span class="tl-note">电瓶车 ¥20–50 可选</span></div></div>
+          <div class="tl-row"><div class="tl-time">15:00</div><div class="tl-content">返回丽江</div></div>
+          <div class="tl-row"><div class="tl-time">16:00</div><div class="tl-content">束河古镇或白沙古镇</div></div>
+          <div class="tl-row"><div class="tl-time">19:30</div><div class="tl-content">回客栈，早睡</div></div>
+          <div class="callout"><b>抢票：</b>12/01 20:00 在“丽江旅游集团”小程序抢 12/08 大索道；21:00 抢云杉坪。牦牛坪索道已停运改建，不要安排。</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 6 -->
+    <article class="day" data-city="lijiang">
+      <div class="day-head">
+        <div class="day-kicker"><span>Day 06</span><span class="city">丽江</span><span>12/09 周三</span></div>
+        <h3>白沙 · 玉湖村 · 拉市海</h3>
+        <div class="tags"><span class="tag">慢节奏</span><span class="tag">雪山备用日</span><span class="tag">候鸟</span></div>
+      </div>
+      <div class="day-body">
+        <aside class="side">
+          <div class="side-block"><b>住宿</b><p>丽江古城<br>连住第 3 晚</p></div>
+          <div class="side-block"><b>今日关键</b><p>雪山若停索道，今天补上<br>拉市海只走栈道</p></div>
+        </aside>
+        <div class="timeline">
+          <div class="tl-row"><div class="tl-time">08:30</div><div class="tl-content">早餐，不赶</div></div>
+          <div class="tl-row"><div class="tl-time">09:00</div><div class="tl-content">到白沙古镇<span class="tl-note">打车 10km 约 ¥30</span></div></div>
+          <div class="tl-row"><div class="tl-time">09:20</div><div class="tl-content">白沙壁画、四方街、雪山咖啡<span class="tl-note">壁画 ¥30</span></div></div>
+          <div class="tl-row"><div class="tl-time">11:20</div><div class="tl-content">到玉湖村<span class="tl-note">打车 8km 约 ¥25</span></div></div>
+          <div class="tl-row"><div class="tl-time">11:40</div><div class="tl-content">玉湖村农家午餐</div></div>
+          <div class="tl-row"><div class="tl-time">12:40</div><div class="tl-content">洛克故居、石头房子、雪山脚下</div></div>
+          <div class="tl-row"><div class="tl-time">14:20</div><div class="tl-content">到拉市海湿地<span class="tl-note">打车 15km 约 ¥35</span></div></div>
+          <div class="tl-row"><div class="tl-time">14:50</div><div class="tl-content">湿地栈道、冬季候鸟<span class="tl-note">不买骑马/划船套餐，路边推销很凶</span></div></div>
+          <div class="tl-row"><div class="tl-time">16:20</div><div class="tl-content">回丽江古城</div></div>
+          <div class="tl-row"><div class="tl-time">18:30</div><div class="tl-content">黑山羊火锅，收拾行李</div></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 7 -->
+    <article class="day" data-city="shangrila">
+      <div class="day-head">
+        <div class="day-kicker"><span>Day 07</span><span class="city">香格里拉</span><span>12/10 周四</span></div>
+        <h3>丽江 → 虎跳峡 → 香格里拉</h3>
+        <div class="tags"><span class="tag">上虎跳</span><span class="tag">中虎跳</span><span class="tag">独克宗</span></div>
+      </div>
+      <div class="day-body">
+        <aside class="side">
+          <div class="side-block"><b>住宿</b><p>独克宗古城<br>地暖＋供氧客栈</p></div>
+          <div class="side-block"><b>包车</b><p>5 座 ¥700–900/车<br>4 人带箱选 7 座</p></div>
+        </aside>
+        <div class="timeline">
+          <div class="tl-row"><div class="tl-time">07:00</div><div class="tl-content">早餐、退房，行李放车上</div></div>
+          <div class="tl-row"><div class="tl-time">07:30</div><div class="tl-content">丽江 → 虎跳峡镇<span class="tl-note">约 2h，沿途玉龙/哈巴雪山</span></div></div>
+          <div class="tl-row"><div class="tl-time">09:30</div><div class="tl-content">上虎跳<span class="tl-note">门票 ¥45，金沙江最窄处</span></div></div>
+          <div class="tl-row"><div class="tl-time">10:45</div><div class="tl-content">中虎跳（可选）<span class="tl-note">村民小路 ¥20–30，下到江边约 2h</span></div></div>
+          <div class="tl-row"><div class="tl-time">12:45</div><div class="tl-content">虎跳峡镇午餐</div></div>
+          <div class="tl-row"><div class="tl-time">13:40</div><div class="tl-content">虎跳峡 → 香格里拉<span class="tl-note">经小中甸，约 2h</span></div></div>
+          <div class="tl-row"><div class="tl-time">15:40</div><div class="tl-content">入住独克宗</div></div>
+          <div class="tl-row"><div class="tl-time">16:30</div><div class="tl-content">龟山公园，世界最大转经筒</div></div>
+          <div class="tl-row"><div class="tl-time">18:30</div><div class="tl-content">牦牛肉火锅<span class="tl-note">第一晚不喝酒、不洗久澡</span></div></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 8 -->
+    <article class="day" data-city="shangrila">
+      <div class="day-head">
+        <div class="day-kicker"><span>Day 08</span><span class="city">香格里拉</span><span>12/11 周五</span></div>
+        <h3>普达措＋松赞林寺</h3>
+        <div class="tags"><span class="tag">属都湖</span><span class="tag">弥里塘</span><span class="tag">小布达拉宫</span></div>
+      </div>
+      <div class="day-body">
+        <aside class="side">
+          <div class="side-block"><b>住宿</b><p>独克宗<br>连住第 2 晚</p></div>
+          <div class="side-block"><b>门票</b><p>普达措 ¥138<br>松赞林寺约 ¥90</p></div>
+        </aside>
+        <div class="timeline">
+          <div class="tl-row"><div class="tl-time">07:30</div><div class="tl-content">早餐</div></div>
+          <div class="tl-row"><div class="tl-time">08:00</div><div class="tl-content">到普达措<span class="tl-note">22km，约 40 分钟</span></div></div>
+          <div class="tl-row"><div class="tl-time">08:40</div><div class="tl-content">购票入园<span class="tl-note">¥138＝门票 68＋观光车 70</span></div></div>
+          <div class="tl-row"><div class="tl-time">09:00</div><div class="tl-content">属都湖 3.3km 木栈道<span class="tl-note">海拔 3595m，慢走</span></div></div>
+          <div class="tl-row"><div class="tl-time">11:30</div><div class="tl-content">弥里塘草甸观景台</div></div>
+          <div class="tl-row"><div class="tl-time">12:10</div><div class="tl-content">出园，回市区午餐</div></div>
+          <div class="tl-row"><div class="tl-time">13:40</div><div class="tl-content">松赞林寺<span class="tl-note">请讲解，下午侧光最好</span></div></div>
+          <div class="tl-row"><div class="tl-time">16:30</div><div class="tl-content">独克宗古城、唐卡/藏香店</div></div>
+          <div class="tl-row"><div class="tl-time">17:30</div><div class="tl-content">龟山公园看日落<span class="tl-note">约 18:25</span></div></div>
+          <div class="tl-row"><div class="tl-time">18:30</div><div class="tl-content">晚餐</div></div>
+          <div class="callout"><b>注意：</b>碧塔海核心区目前封闭，不要按旧攻略安排“环碧塔海”。以属都湖、弥里塘为主。</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 9 -->
+    <article class="day" data-city="shangrila">
+      <div class="day-head">
+        <div class="day-kicker"><span>Day 09</span><span class="city">香格里拉</span><span>12/12 周六</span></div>
+        <h3>纳帕海＋石卡雪山</h3>
+        <div class="tags"><span class="tag">黑颈鹤</span><span class="tag">4449m</span><span class="tag">藏香体验</span></div>
+      </div>
+      <div class="day-body">
+        <aside class="side">
+          <div class="side-block"><b>住宿</b><p>独克宗<br>连住第 3 晚</p></div>
+          <div class="side-block"><b>今日关键</b><p>收拾行李<br>约好明早 06:50 的车</p></div>
+        </aside>
+        <div class="timeline">
+          <div class="tl-row"><div class="tl-time">08:00</div><div class="tl-content">早餐</div></div>
+          <div class="tl-row"><div class="tl-time">08:40</div><div class="tl-content">纳帕海依拉草原、黑颈鹤<span class="tl-note">骑马 ¥100–150 可选</span></div></div>
+          <div class="tl-row"><div class="tl-time">11:00</div><div class="tl-content">石卡雪山索道 4449m<span class="tl-note">¥168–220，大风会停运</span></div></div>
+          <div class="tl-row"><div class="tl-time">13:30</div><div class="tl-content">午餐</div></div>
+          <div class="tl-row"><div class="tl-time">14:30</div><div class="tl-content">独克宗唐卡/藏香体验</div></div>
+          <div class="tl-row"><div class="tl-time">16:30</div><div class="tl-content">买伴手礼</div></div>
+          <div class="tl-row"><div class="tl-time">17:30</div><div class="tl-content">古城最后一次日落</div></div>
+          <div class="tl-row"><div class="tl-time">18:30</div><div class="tl-content">晚餐，收拾行李</div></div>
+          <div class="callout"><b>备选：</b>体力好可换巴拉格宗大峡谷（07:00–19:00，约 ¥170–210），但第二天 07:22 火车，不建议。</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 10 -->
+    <article class="day" data-city="shangrila">
+      <div class="day-head">
+        <div class="day-kicker"><span>Day 10</span><span class="city">返程</span><span>12/13 周日</span></div>
+        <h3>动车回昆明，飞回深圳</h3>
+        <div class="tags"><span class="tag">C644 07:22</span><span class="tag">昆明中转</span><span class="tag">16:00 飞</span></div>
+      </div>
+      <div class="day-body">
+        <aside class="side">
+          <div class="side-block"><b>今日关键</b><p>07:22 动车 → 12:50 昆明<br>16:00 飞深圳</p></div>
+          <div class="side-block"><b>缓冲</b><p>到机场 14:00<br>起飞前 2 小时</p></div>
+        </aside>
+        <div class="timeline">
+          <div class="tl-row"><div class="tl-time">06:20</div><div class="tl-content">起床、洗漱、退房<span class="tl-note">前一晚把箱子收好</span></div></div>
+          <div class="tl-row"><div class="tl-time">06:40</div><div class="tl-content">早餐（客栈打包或路上买）</div></div>
+          <div class="tl-row"><div class="tl-time">06:50</div><div class="tl-content">独克宗 → 香格里拉站<span class="tl-note">3km，打车约 ¥25</span></div></div>
+          <div class="tl-row"><div class="tl-time">07:22</div><div class="tl-content">香格里拉 → 昆明 C644<span class="tl-note">二等座 ¥245–260，5h28</span></div></div>
+          <div class="tl-row"><div class="tl-time">12:50</div><div class="tl-content">到昆明站，出站打车</div></div>
+          <div class="tl-row"><div class="tl-time">13:10</div><div class="tl-content">昆明站 → 长水机场<span class="tl-note">30km，约 50 分钟，¥100</span></div></div>
+          <div class="tl-row"><div class="tl-time">14:00</div><div class="tl-content">值机、托运、安检</div></div>
+          <div class="tl-row"><div class="tl-time">16:00</div><div class="tl-content">昆明 → 深圳<span class="tl-note">2h10，18:10 落地</span></div></div>
+          <div class="tl-row"><div class="tl-time">18:10</div><div class="tl-content">到家</div></div>
+          <div class="callout"><b>买 16:00 以后：</b>动车晚点 30 分钟仍赶得上；若买 15:00 以前，一次晚点就会误机。火车票与机票互相不负责。</div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ================= STAY ================= -->
+  <section id="stay">
+    <div class="sec-head">
+      <span class="num">05</span>
+      <h2>住哪儿</h2>
+      <span class="en">Stay</span>
+    </div>
+    <div class="grid-4">
+      <div class="stay">
+        <div class="nights">1 晚</div>
+        <div class="city">昆明</div>
+        <div class="area">昆明站 / 环城南路<br>深夜到店近，第二天去车站方便</div>
+        <div class="price">¥300–400 · 24h 前台</div>
+      </div>
+      <div class="stay">
+        <div class="nights">2 晚</div>
+        <div class="city">大理</div>
+        <div class="area">古城人民路 / 博爱路<br>车进不去，客栈会来接行李</div>
+        <div class="price">¥350–550 · 近人民路</div>
+      </div>
+      <div class="stay">
+        <div class="nights">3 晚</div>
+        <div class="city">丽江</div>
+        <div class="area">七一街 / 五一街<br>比酒吧街安静，步行到四方街</div>
+        <div class="price">¥350–600 · 古城内</div>
+      </div>
+      <div class="stay">
+        <div class="nights">3 晚</div>
+        <div class="city">香格里拉</div>
+        <div class="area">独克宗月光广场附近<br>一定选地暖＋供氧</div>
+        <div class="price">¥400–700 · 高原客栈</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BOOKING ================= -->
+  <section id="booking">
+    <div class="sec-head">
+      <span class="num">06</span>
+      <h2>订票清单</h2>
+      <span class="en">Checklist</span>
+    </div>
+    <div class="checklist">
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>今天</b>12/04 20:40 深圳 → 昆明机票</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>今天</b>昆明 1 晚、大理 2 晚、丽江 3 晚、香格里拉 3 晚</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>今天</b>12/05 17:31 昆明 → 大理 C9514</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>今天</b>12/07 16:35 大理 → 丽江 C325</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>11/29 15:00</b>12/13 07:22 香格里拉 → 昆明 C644</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>12/01 20:00</b>12/08 玉龙雪山大索道（21:00 云杉坪备选）</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>12/04 前</b>大理环湖包车（12/06）</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>12/04 前</b>丽江雪山包车（12/08）</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>12/04 前</b>丽江 → 虎跳峡 → 香格里拉包车（12/10）</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>12/04 前</b>香格里拉两日包车（12/11、12/12）</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>12/10 晚</b>普达措门票（12/11）</span></label>
+      <label class="check"><input type="checkbox"><span class="box"></span><span class="check-text"><b>出发前</b>身份证、墨镜、防晒、润唇膏、保温杯、常用药</span></label>
+    </div>
+  </section>
+
+  <!-- ================= BUDGET ================= -->
+  <section id="budget">
+    <div class="sec-head">
+      <span class="num">07</span>
+      <h2>预算参考</h2>
+      <span class="en">Budget</span>
+    </div>
+    <div class="budget">
+      <div class="b-row"><span>机票</span><div class="bar"><span style="width:82%"></span></div><span class="val">¥1600–2200</span></div>
+      <div class="b-row"><span>火车</span><div class="bar"><span style="width:22%"></span></div><span class="val">¥470–505</span></div>
+      <div class="b-row"><span>包车</span><div class="bar"><span style="width:58%"></span></div><span class="val">¥1200–1500</span></div>
+      <div class="b-row"><span>门票</span><div class="bar"><span style="width:42%"></span></div><span class="val">¥900–1050</span></div>
+      <div class="b-row"><span>住宿</span><div class="bar"><span style="width:88%"></span></div><span class="val">¥1800–2400</span></div>
+      <div class="b-row"><span>餐饮</span><div class="bar"><span style="width:62%"></span></div><span class="val">¥1300–1600</span></div>
+      <div class="b-total"><span>两人同行 · 人均合计</span><b>¥7300 – 9200</b></div>
+    </div>
+  </section>
+
+  <!-- ================= TIPS ================= -->
+  <section id="tips">
+    <div class="sec-head">
+      <span class="num">08</span>
+      <h2>出发前记住这 8 条</h2>
+      <span class="en">Notes</span>
+    </div>
+    <div class="grid-2">
+      <div class="tip"><b>温差很大</b>昆明 4–18℃，大理 3–17℃，丽江 -2–15℃，香格里拉 -10–10℃。短袖＋抓绒＋羽绒＋防风外套。</div>
+      <div class="tip"><b>日出很晚</b>12 月云南日出约 07:50–08:05，日落约 18:20–18:30，别按东部作息 6 点出门。</div>
+      <div class="tip"><b>高反节奏</b>丽江住 2 晚再上香格里拉；第一晚不喝酒、不洗久澡；氧气瓶在丽江买 ¥15。</div>
+      <div class="tip"><b>雪山两套票</b>进山票和索道票在不同小程序，买了进山票不等于有索道位；大索道 12/01 20:00 抢。</div>
+      <div class="tip"><b>普达措</b>碧塔海核心区封闭，以属都湖、弥里塘为主，别按旧攻略安排环湖。</div>
+      <div class="tip"><b>防晒保湿</b>高原紫外线强，墨镜、SPF50、润唇膏、保湿霜必带，冬天干到起皮。</div>
+      <div class="tip"><b>证件</b>身份证随身；学生证、老年证可享门票优惠；古城维护费票据留好。</div>
+      <div class="tip"><b>行李</b>12/13 坐动车，24 寸放头顶架，28 寸放车厢连接处大件架，上车早一点。</div>
+    </div>
+  </section>
+
+  <!-- ================= BACKUP ================= -->
+  <section id="backup">
+    <div class="sec-head">
+      <span class="num">09</span>
+      <h2>备用方案</h2>
+      <span class="en">Plan B</span>
+    </div>
+    <div class="backup">
+      <ol>
+        <li><b>12/08 雪山停索道</b>：换到 12/09，白沙线取消或挪到 12/08 下午。</li>
+        <li><b>12/13 C644 没票</b>：改 12/12 17:25 C88 到昆明，住机场附近，12/13 早上飞深圳；或改回 08:50 迪庆飞昆明。</li>
+        <li><b>12/13 动车晚点</b>：买 16:00 以后航班；误机可改签后续昆明—深圳班次。</li>
+        <li><b>香格里拉大雪</b>：石卡/巴拉格宗取消，改独克宗＋博物馆＋藏香体验。</li>
+        <li><b>12/05 动车没票</b>：改 15:30 左右班次，昆明少玩两小时，后续不变。</li>
+      </ol>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <b>云南十日 · 2026 冬</b><br>
+  行程按 2026 冬春航季班次与票价整理，具体时刻、价格以出行当天 12306 和航司实际查询为准。<br>
+  昆明 · 大理 · 丽江 · 香格里拉 —— 一路向北，慢慢走。
+</footer>
+
+<button class="top" id="top" title="回到顶部" aria-label="回到顶部">↑</button>
+
+<script>
+  var topBtn = document.getElementById('top');
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 600) topBtn.classList.add('show');
+    else topBtn.classList.remove('show');
+  }, { passive: true });
+  topBtn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+</body>
+</html>
